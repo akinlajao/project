@@ -1,0 +1,512 @@
+.navbar { background-color: white;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar .Logo h1 {
+    font-size: 30px;
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar .Logo h1 span {
+    font-size: 15px;
+    color: grey;
+}
+.navbar .list ul {
+    display: flex;
+    gap: 50px;
+}
+.navbar .list ul li {
+    list-style-type: none;
+}
+.navbar .list ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact {
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar .smhandles .fa-facebook-f {
+    color: rgb(27, 128, 230);
+    transition: all 1.0s ease-in-out ;
+}
+.navbar .smhandles .fa-facebook-f:hover {
+    transform: scaleX(-1);
+}
+.navbar .smhandles .fa-twitter {
+    color: rgba(10, 155, 145, 0.737); transition: all 1.0s ease-in-out ;
+    
+}
+.navbar .smhandles .fa-twitter:hover {
+    transform: scaleX(-1);}
+.navbar .smhandles .fa-linkedin {
+    color: rgb(30, 100, 100); transition: all 1.0s ease-in-out ;
+}
+.navbar .smhandles .fa-linkedin:hover {
+    transform: scaleX(-1);}
+.navbar .smhandles .fa-youtube {
+    color: red; transition: all 1.0s ease-in-out ;
+}
+.navbar .smhandles .fa-youtube:hover {
+    transform: scaleX(-1);}
+.navbar .smhandles .fa-envelope { color: rgb(7, 248, 168); transition: all 1.0s ease-in-out ;}
+.navbar .smhandles .fa-envelope:hover {
+    transform: scaleX(-1);}
+
+    /* navbar end */
+
+    /* banner */
+.banner {background-image: url(/Images/hero_2.jpg.webp);
+    background-size: cover;
+    height: 100vh;
+
+    }
+.wordings { width: 40%;
+   padding-top: 100px;
+   padding-left: 50px;
+}
+
+.banner h1{font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: blueviolet;}
+.wordings p {
+    font-size: 45px;
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wordings .addition {
+    font-size: 15px;
+}
+.secondphoto {
+    background-color: rgb(253, 247, 239);
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 50px;
+}
+.secondphoto .img {
+    height: 500px;
+    width: 40%;
+    padding-top: 50px;
+}
+.secondphoto .wordings2 {
+    height: 500px;
+    width: 60%;
+    /* padding: 10px; */
+  
+}
+.secondphoto .wordings2 p {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-top: 30px;
+}
+.secondphoto .wordings2 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    /* padding-bottom: 150px; */
+}
+.secondphoto .wordings2 a {
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pwo .head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    width: 600px;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.pwo .head p {
+    font-weight: lighter;
+}
+.pwo .dmcont .mcont img {
+    width: 500px;
+    height: 300px;
+    transition: transform 0.9s;
+
+}
+.pwo .dmcont .mcontt img {
+    width: 500px;
+    height: 300px;
+    transition: transform 0.9s;
+    
+}
+.pwo .dmcont .mcontt {width: 550px;
+height: 600px;
+border: 1px solid black;
+padding: 20px;
+}
+.pwo .dmcont .mcont {width: 550px;
+    height: 600px;
+    border: 1px solid black;
+padding: 20px;}
+.pwo .dmcont {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.pwo .dmcont .mcont h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.pwo .dmcont .mcont p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.pwo .dmcont .mcont a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* new cache */
+
+.pwo .dmcont .mcontt h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+.pwo .dmcont .mcontt h3:hover{
+    color: aquamarine;
+}
+.pwo .dmcont .mcontt p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.pwo .dmcont .mcontt a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.pwo .dmcont .mcont img:hover{
+    transform: scale(1.1);
+}
+.pwo .dmcont .mcontt img:hover{
+    transform: scale(1.1);
+}
+.pwo .dmcont .mcontt img {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.pwo .dmcont .mcont img { 
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+.lowcontent {
+    display: flex;
+    padding-top: 50px;
+    width: 100%;
+}
+.lowcontent .text2 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.lowcontent .text2 .P1 {
+    border: 1px solid black;
+    width: 500px;
+    background-color: rgb(240, 229, 229);  
+    margin-top: 10px; 
+}
+.lowcontent .text2 .P2 {
+    border: 1px solid black;
+    width: 500px;
+    background-color: rgb(240, 229, 229);
+    margin-top: 10px;   
+}
+.lowcontent .text2 .P3 {
+    border: 1px solid black;
+    width: 500px;
+    background-color: rgb(240, 229, 229);   
+    margin-top: 10px;
+}
+.lowcontent .text2 {
+    padding-top: 10px;
+}
+.lowcontent .text2 .P3 {
+    padding-top: 10px;
+}
+.lowcontent .text2 .P1 h2 {
+    
+}
+.lowcontent .text2 .P1 .fa-solid {
+    border: 1px solid black;
+    border-radius: 60%;
+    padding: 15px;
+
+
+}
+.lowcontent .text2 .P1 .fa-solid:hover {
+    background-color: aquamarine;
+}
+.lowcontent .text2 .P1 h2 {
+    color: rgb(34, 23, 243);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lowcontent .text2 .P1 h2:hover {
+    color: rgb(127, 255, 212);
+}
+.lowcontent .text2 .P2:hover {
+    background-color: aquamarine;
+    
+}
+.lowcontent .text2 .P2 .fa-solid {
+    border: 1px solid black;
+    border-radius: 60%;
+    padding: 15px;}
+
+.lowcontent .text2 .P2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lowcontent .text2 .P3 .fa-solid {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.lowcontent .text2 .P3 .fa-solid:hover {
+    background-color: aquamarine;
+}
+.lowcontent .text2 .P3 h2:hover {
+    color: aquamarine;
+}
+.lowcontent .text2 .P3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.lowcontent {
+    background-color: rgb(231, 244, 240);
+    width: 100%;
+    height: 750px;
+}
+
+/* Lowercontent */
+
+.LINE3 {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    padding-top: 40px;
+    
+}
+.LINE3 h1 {
+   
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.LINE3 a {
+    padding-top: 3%;
+}
+.lowcontent3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 75px;
+}
+.lowcontent3 .pack1 img {
+    width: 300px;
+    height: 300px;
+}
+.lowcontent3 .pack2 img {
+    width: 300px;
+    height: 300px;
+}
+.lowcontent3 .pack3 img {
+    width: 300px;
+    height: 300px;
+}
+
+.lowcontent3 .pack1 .wordings p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-right: 100px;
+
+}
+.lowcontent3 .pack2 .wordings p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-right: 100px;
+}
+.lowcontent3 .pack3 .wordings p{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-right: 100px;
+}
+.lowcontent3 .pack1 .wordings {
+    width: 300px;
+    
+}
+.lowcontent3 .pack2 .wordings{
+    width: 300px;
+}
+.lowcontent3 .pack3 .wordings {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.Partners h1 {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.Partners p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 600px;
+    padding-left: 300px;
+
+}
+
+.Partners {
+    border-top: 1px black solid;
+    padding-top: 60px;
+
+}
+.trusted {
+    background-color: rgb(9, 82, 9);
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.trusted .image {
+    background-color: antiquewhite;
+    width: 50%;
+    height: 380px;
+    margin-top: 10px;
+    margin-bottom: ;
+
+}
+.trusted .image img {
+    width: 500px;
+    height: 300;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 75px;
+}
+.trusted .wordingsx h1 {
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    color: white;
+}
+.trusted .wordingsx {
+    padding: 30px;
+}
+.trusted .wordingsx p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+    color: white;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.trusted .wordingsx a {
+    font: size 14px; 
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px white solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+.footer {
+    background-color: grey;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 40px;
+    
+}
+/* .blist1 {
+    display: flex;
+    justify-content: space-around;
+color: white;
+}
+.blist2 {
+    display: flex;
+    justify-content: space-around;
+color: white;}
+.blist3 . {display: flex;
+color: white;} */
+.footer .WhiteLogo {width: 50px;
+    height: 5px;
+    font-size: 7px;
+    color: rgb(240, 247, 255);
+    display: flex;
+    
+}
+.footer .whitelogo h1 {
+    font-size: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer .whitelogo h1 span {
+    font-size: 10px;
+    color: white;}
+    .footer .Quicklink {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .footer .Quicklink h5 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-top: 12px;
+    }
+    .footer .Programs {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .footer .Programs h5 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-top: 12px;
+    }
+    .footer .Resources {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+    .footer .Resources h5 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-top: 12px;
+    }
+.footer .Newsletter {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+       
+    }
+.footer .Newsletter h5 a {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding-top: 12px;}
+.footer .phc  .fa-arrow-right {
+    border: 1px solid green;
+    padding: 11px;
+    background-color: green;
+    }
+    .footer .phc input {
+        height: 36px;
+        width: 80%;
+    }
+    .footer .lower-smhandles {
+        padding-top: 20px;
+    }
